@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="YKM-oo-Eer">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="Jvc-6c-uAf">
+            <objects>
+                <viewController id="YKM-oo-Eer" customClass="TYLoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="I3f-1l-5VG"/>
+                        <viewControllerLayoutGuide type="bottom" id="W7J-Kh-4uV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KW3-4V-Fre">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="账号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k6q-Db-Obu">
+                                <rect key="frame" x="16" y="70" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lVx-jn-eQQ">
+                                <rect key="frame" x="16" y="120" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="arl-fh-bNJ">
+                                <rect key="frame" x="96" y="180" width="31" height="30"/>
+                                <state key="normal" title="登录"/>
+                                <connections>
+                                    <action selector="logInAction:" destination="YKM-oo-Eer" eventType="touchUpInside" id="sam-Cb-G4u"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zI2-Ay-gxQ">
+                                <rect key="frame" x="248" y="180" width="31" height="30"/>
+                                <state key="normal" title="注册"/>
+                                <connections>
+                                    <action selector="registAction:" destination="YKM-oo-Eer" eventType="touchUpInside" id="dIy-MO-Z4Z"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lVx-jn-eQQ" firstAttribute="leading" secondItem="KW3-4V-Fre" secondAttribute="leadingMargin" id="F4e-L4-yhT"/>
+                            <constraint firstItem="k6q-Db-Obu" firstAttribute="leading" secondItem="KW3-4V-Fre" secondAttribute="leadingMargin" id="Ijt-Gx-EN3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="k6q-Db-Obu" secondAttribute="trailing" id="JiB-gf-pHl"/>
+                            <constraint firstItem="k6q-Db-Obu" firstAttribute="top" secondItem="I3f-1l-5VG" secondAttribute="bottom" constant="50" id="LEL-xC-MLi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zI2-Ay-gxQ" secondAttribute="trailing" constant="80" id="WWB-3M-3xG"/>
+                            <constraint firstItem="lVx-jn-eQQ" firstAttribute="top" secondItem="k6q-Db-Obu" secondAttribute="bottom" constant="20" id="aOK-YT-Hbp"/>
+                            <constraint firstItem="arl-fh-bNJ" firstAttribute="top" secondItem="lVx-jn-eQQ" secondAttribute="bottom" constant="30" id="bKR-Zt-qxH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lVx-jn-eQQ" secondAttribute="trailing" id="iD5-SX-2ZP"/>
+                            <constraint firstItem="arl-fh-bNJ" firstAttribute="leading" secondItem="KW3-4V-Fre" secondAttribute="leadingMargin" constant="80" id="kvq-NR-owO"/>
+                            <constraint firstItem="arl-fh-bNJ" firstAttribute="top" secondItem="zI2-Ay-gxQ" secondAttribute="top" id="rWM-e4-CY5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="passwordTextField" destination="lVx-jn-eQQ" id="f1m-0c-yPw"/>
+                        <outlet property="usernameTextField" destination="k6q-Db-Obu" id="ZMY-ug-cb1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="exk-cs-MLu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-156" y="80"/>
+        </scene>
+    </scenes>
+</document>
