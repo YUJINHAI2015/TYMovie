@@ -1,0 +1,30 @@
+//
+//  TYMovieUIDefine.pch
+//  TYMovie
+//
+//  Created by 余锦海 on 17/3/12.
+//  Copyright © 2017年 余锦海. All rights reserved.
+//
+
+#ifndef TYMovieUIDefine_pch
+#define TYMovieUIDefine_pch
+
+/**
+ *  @author Tankch, 15-07-03 11:07:08
+ *
+ *  XIB 和 Storyboard宏
+ */
+#define InitVCFromStoryBoard(storyboardName)  [[UIStoryboard storyboardWithName:storyboardName bundle:nil] instantiateInitialViewController];
+
+#define InitVCFromStoryboard(storyboardName, VCID) [[UIStoryboard storyboardWithName:storyboardName bundle:nil] instantiateViewControllerWithIdentifier:VCID];
+#define InitVCFromXib(XibName) [[XibName alloc]initWithNibName:NSStringFromClass(XibName) bundle:nil];
+
+#define IS_IPHONE_5 ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )568 ) < DBL_EPSILON )
+
+#define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+#define KNOTIFICATION_LOGINCHANGE @"loginStateChange"
+
+#define CHATVIEWBACKGROUNDCOLOR [UIColor colorWithRed:0.936 green:0.932 blue:0.907 alpha:1]
+
+#endif /* TYMovieUIDefine_pch */

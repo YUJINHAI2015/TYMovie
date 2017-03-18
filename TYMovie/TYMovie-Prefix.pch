@@ -1,0 +1,29 @@
+//
+//  TYMovie-Prefix.pch
+//  TYMovie
+//
+//  Created by 余锦海 on 17/3/12.
+//  Copyright © 2017年 余锦海. All rights reserved.
+//
+
+#ifndef TYMovie_Prefix_pch
+#define TYMovie_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* TYMovie_Prefix_pch */
+
+#ifdef __OBJC__
+
+
+
+    #import <UIKit/UIKit.h>
+    #import "TYMovieUIDefine.pch"
+    #import <HyphenateLite/HyphenateLite.h>
+
+    #import "EaseUI.h"
+
+    #import "UIColor+TYAdd.h"
+
+#endif

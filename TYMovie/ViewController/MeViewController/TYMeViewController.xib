@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TYMeViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QVx-Cm-Ws6">
+                    <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.10980392160000001" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="xFW-HS-7JJ"/>
+                    </constraints>
+                    <state key="normal" title="退出登录">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="logOutAction:" destination="-1" eventType="touchUpInside" id="xXx-WY-uL9"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CcZ-gH-1er">
+                    <rect key="frame" x="141" y="318" width="92" height="30"/>
+                    <color key="backgroundColor" red="0.94901960780000005" green="0.46274509800000002" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="设置个人信息"/>
+                    <connections>
+                        <action selector="profileAction:" destination="-1" eventType="touchUpInside" id="Yas-ix-5Sk"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="CcZ-gH-1er" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="BCn-wl-HAP"/>
+                <constraint firstItem="QVx-Cm-Ws6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="HS4-TJ-O68"/>
+                <constraint firstAttribute="bottom" secondItem="QVx-Cm-Ws6" secondAttribute="bottom" id="RBZ-vd-cfG"/>
+                <constraint firstAttribute="trailing" secondItem="QVx-Cm-Ws6" secondAttribute="trailing" id="iRP-c7-M6t"/>
+                <constraint firstItem="CcZ-gH-1er" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="z6C-JC-Rcl"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
