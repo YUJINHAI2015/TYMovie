@@ -20,10 +20,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+<<<<<<< HEAD
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
         
+=======
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
     if (NSClassFromString(@"UNUserNotificationCenter")) {
         [UNUserNotificationCenter currentNotificationCenter].delegate = self;
     }
@@ -35,6 +42,7 @@
 #else
     apnsCertName = @"distrubitionCertificate";
 #endif
+<<<<<<< HEAD
     NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
     NSString *appkey = [ud stringForKey:@"identifier_appkey"];
     if (!appkey) {
@@ -44,6 +52,11 @@
     
     [self easemobApplication:application didFinishLaunchingWithOptions:launchOptions
                       appkey:appkey
+=======
+    
+    [self easemobApplication:application didFinishLaunchingWithOptions:launchOptions
+                      appkey:EaseMobAppKey
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
                 apnsCertName:apnsCertName
                  otherConfig:@{kSDKConfigEnableConsoleLogger:[NSNumber numberWithBool:YES]}];
     

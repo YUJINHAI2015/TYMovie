@@ -19,6 +19,7 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
+<<<<<<< HEAD
             filePath = "TYMovie/ViewController/ChatViewController/TYChatViewController.m"
             timestampString = "511089683.519226"
             startingColumnNumber = "9223372036854775807"
@@ -26,6 +27,15 @@
             startingLineNumber = "352"
             endingLineNumber = "352"
             landmarkName = "-viewController:didFinishSelectedSources:"
+=======
+            filePath = "TYMovie/ViewController/Contacts/TYUserListViewController.m"
+            timestampString = "511346902.435685"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "381"
+            endingLineNumber = "381"
+            landmarkName = "-actionSheet:clickedButtonAtIndex:"
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

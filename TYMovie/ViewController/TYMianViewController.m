@@ -25,8 +25,11 @@ static NSString *kGroupName = @"GroupName";
     TYUserListViewController *_contactsVC; // 联系人
     TYApplicationViewController *_applicationVC; // 应用
     TYMeViewController *_meVC; // 我
+<<<<<<< HEAD
     
     UIBarButtonItem *_addFriendItem;
+=======
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 }
 @property (strong, nonatomic) NSDate *lastPlaySoundDate;
 
@@ -36,11 +39,14 @@ static NSString *kGroupName = @"GroupName";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+<<<<<<< HEAD
     //if 使tabBarController中管理的viewControllers都符合 UIRectEdgeNone
     if ([self respondsToSelector:@selector(setEdgesForExtendedLayout:)]) {
         [self setEdgesForExtendedLayout: UIRectEdgeNone];
     }
     
+=======
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
     self.title = NSLocalizedString(@"title.conversation", @"Conversations");
 
     //获取未读消息数，此时并没有把self注册为SDK的delegate，读取出的未读数是上次退出程序时的
@@ -48,6 +54,7 @@ static NSString *kGroupName = @"GroupName";
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(setupUntreatedApplyCount) name:@"setupUntreatedApplyCount" object:nil]; // 联系人
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(setupUnreadMessageCount) name:@"setupUnreadMessageCount" object:nil]; // 聊天
     
+<<<<<<< HEAD
     [self setupSubviews];
     self.selectedIndex = 0;
     if ([UIDevice currentDevice].systemVersion.floatValue >= 7) {
@@ -57,12 +64,19 @@ static NSString *kGroupName = @"GroupName";
     [addButton setImage:[UIImage imageNamed:@"add.png"] forState:UIControlStateNormal];
     [addButton addTarget:_contactsVC action:@selector(addFriendAction) forControlEvents:UIControlEventTouchUpInside];
     _addFriendItem = [[UIBarButtonItem alloc] initWithCustomView:addButton];
+=======
+//    self.selectedIndex = 0;
+//    if ([UIDevice currentDevice].systemVersion.floatValue >= 7) {
+//        self.edgesForExtendedLayout = UIRectEdgeNone;
+//    }
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
     // 为什么用重新调用呢，可以不调用
     [self setupUnreadMessageCount];
     [self setupUntreatedApplyCount];
     
     [TYChatHelper shareHelper].contactViewVC = _contactsVC;
     [TYChatHelper shareHelper].conversationListVC = _chatListVC;
+<<<<<<< HEAD
 
 }
 
@@ -131,6 +145,10 @@ static NSString *kGroupName = @"GroupName";
                                         RGBACOLOR(0x00, 0xac, 0xff, 1),NSForegroundColorAttributeName,
                                         nil] forState:UIControlStateSelected];
 }
+=======
+}
+
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 #pragma mark - public
 // 统计未读消息数
 -(void)setupUnreadMessageCount
@@ -154,6 +172,7 @@ static NSString *kGroupName = @"GroupName";
 
 - (void)setupUntreatedApplyCount
 {   // 这里要重新看看
+<<<<<<< HEAD
 //    NSInteger unreadCount = [[[TYApplyViewController shareController] dataSource] count];
 //    if (_contactsVC) {
 //        if (unreadCount > 0) {
@@ -162,6 +181,16 @@ static NSString *kGroupName = @"GroupName";
 //            _contactsVC.tabBarItem.badgeValue = nil;
 //        }
 //    }
+=======
+    NSInteger unreadCount = [[[TYApplyViewController shareController] dataSource] count];
+    if (_contactsVC) {
+        if (unreadCount > 0) {
+            _contactsVC.tabBarItem.badgeValue = [NSString stringWithFormat:@"%i",(int)unreadCount];
+        }else{
+            _contactsVC.tabBarItem.badgeValue = nil;
+        }
+    }
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 }
 // 看不太懂，这里从哪里传来的connect
 - (void)networkChanged:(EMConnectionState)connectionState
@@ -421,5 +450,8 @@ static NSString *kGroupName = @"GroupName";
         [self setSelectedViewController:_chatListVC];
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 @end

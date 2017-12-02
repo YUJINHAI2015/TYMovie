@@ -9,8 +9,14 @@
 #import "TYChatViewController.h"
 #import "EMChooseViewController.h"
 #import "TYChatHelper.h"
+<<<<<<< HEAD
 #import "SCUserProfileEntity.h"
 
+=======
+#import "UserProfileManager.h"
+#import "TYUserProfileViewController.h"
+#import "ContactListSelectViewController.h"
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 @interface TYChatViewController ()<UIAlertViewDelegate,EMClientDelegate, EMChooseViewDelegate>
 {
     UIMenuItem *_copyMenuItem;
@@ -34,10 +40,17 @@
     
     [self _setupBarButtonItem];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(deleteAllMessages:) name:KNOTIFICATIONNAME_DELETEALLMESSAGE object:nil];
+<<<<<<< HEAD
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(exitGroup) name:@"ExitGroup" object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(insertCallMessage:) name:@"insertCallMessage" object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleCallNotification:) name:@"callOutWithChatter" object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleCallNotification:) name:@"callControllerClose" object:nil];
+=======
+//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(exitGroup) name:@"ExitGroup" object:nil];
+//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(insertCallMessage:) name:@"insertCallMessage" object:nil];
+//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleCallNotification:) name:@"callOutWithChatter" object:nil];
+//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleCallNotification:) name:@"callControllerClose" object:nil];
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 }
 - (void)dealloc
 {
@@ -91,8 +104,13 @@
 - (void)messageViewController:(EaseMessageViewController *)viewController
   didSelectAvatarMessageModel:(id<IMessageModel>)messageModel
 {
+<<<<<<< HEAD
 //    UserProfileViewController *userprofile = [[UserProfileViewController alloc] initWithUsername:messageModel.message.from];
 //    [self.navigationController pushViewController:userprofile animated:YES];
+=======
+    TYUserProfileViewController *userprofile = [[TYUserProfileViewController alloc] init];
+    [self.navigationController pushViewController:userprofile animated:YES];
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 }
 
 #pragma mark - EaseMessageViewControllerDataSource
@@ -103,11 +121,19 @@
     id<IMessageModel> model = nil;
     model = [[EaseMessageModel alloc] initWithMessage:message];
     model.avatarImage = [UIImage imageNamed:@"EaseUIResource.bundle/user"];
+<<<<<<< HEAD
 //    UserProfileEntity *profileEntity = [[UserProfileManager sharedInstance] getUserProfileByUsername:model.nickname];
 //    if (profileEntity) {
 //        model.avatarURLPath = profileEntity.imageUrl;
 //        model.nickname = profileEntity.nickname;
 //    }
+=======
+    UserProfileEntity *profileEntity = [[UserProfileManager sharedInstance] getUserProfileByUsername:model.nickname];
+    if (profileEntity) {
+        model.avatarURLPath = profileEntity.imageUrl;
+        model.nickname = profileEntity.nickname;
+    }
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
     
     model.failImageName = @"imageDownloadFail";
     return model;
@@ -255,6 +281,7 @@
 // 转发
 - (void)transpondMenuAction:(id)sender
 {
+<<<<<<< HEAD
 //    if (self.menuIndexPath && self.menuIndexPath.row > 0) {
 //        id<IMessageModel> model = [self.dataArray objectAtIndex:self.menuIndexPath.row];
 //        ContactListSelectViewController *listViewController = [[ContactListSelectViewController alloc] initWithNibName:nil bundle:nil];
@@ -263,6 +290,16 @@
 //        [self.navigationController pushViewController:listViewController animated:YES];
 //    }
 //    self.menuIndexPath = nil;
+=======
+    if (self.menuIndexPath && self.menuIndexPath.row > 0) {
+        id<IMessageModel> model = [self.dataArray objectAtIndex:self.menuIndexPath.row];
+        ContactListSelectViewController *listViewController = [[ContactListSelectViewController alloc] initWithNibName:nil bundle:nil];
+        listViewController.messageModel = model;
+        [listViewController tableViewDidTriggerHeaderRefresh];
+        [self.navigationController pushViewController:listViewController animated:YES];
+    }
+    self.menuIndexPath = nil;
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 }
 // 复制
 - (void)copyMenuAction:(id)sender
@@ -350,6 +387,7 @@
 - (BOOL)viewController:(EMChooseViewController *)viewController didFinishSelectedSources:(NSArray *)selectedSources
 {
     if ([selectedSources count]) {
+<<<<<<< HEAD
 //        EaseAtTarget *target = [[EaseAtTarget alloc] init];
 //        target.userId = selectedSources.firstObject;
 //        UserProfileEntity *profileEntity = [[UserProfileManager sharedInstance] getUserProfileByUsername:target.userId];
@@ -359,6 +397,17 @@
 //        if (_selectedCallback) {
 //            _selectedCallback(target);
 //        }
+=======
+        EaseAtTarget *target = [[EaseAtTarget alloc] init];
+        target.userId = selectedSources.firstObject;
+        UserProfileEntity *profileEntity = [[UserProfileManager sharedInstance] getUserProfileByUsername:target.userId];
+        if (profileEntity) {
+            target.nickname = profileEntity.nickname == nil ? profileEntity.username : profileEntity.nickname;
+        }
+        if (_selectedCallback) {
+            _selectedCallback(target);
+        }
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
     }
     else {
         if (_selectedCallback) {

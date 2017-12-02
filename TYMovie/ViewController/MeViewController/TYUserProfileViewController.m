@@ -9,9 +9,14 @@
 #import "TYUserProfileViewController.h"
 
 #import <MobileCoreServices/MobileCoreServices.h>
+<<<<<<< HEAD
 
 #import "UserProfileManager.h"
 //#import "EditNicknameViewController.h"
+=======
+#import "UIViewController+HUD.h"
+#import "UserProfileManager.h"
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 #import "UIImageView+HeadImage.h"
 
 @interface TYUserProfileViewController () <UINavigationControllerDelegate,UIImagePickerControllerDelegate,UIActionSheetDelegate>
@@ -24,6 +29,7 @@
 
 @implementation TYUserProfileViewController
 
+<<<<<<< HEAD
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
@@ -32,6 +38,8 @@
     }
     return self;
 }
+=======
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -41,7 +49,11 @@
     self.tableView.backgroundColor = [UIColor whiteColor];
     self.tableView.tableFooterView = [[UIView alloc] init];
 }
+<<<<<<< HEAD
 
+=======
+// 头像
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 - (UIImageView*)headImageView
 {
     if (!_headImageView) {
@@ -54,7 +66,11 @@
     [_headImageView imageWithUsername:user.username placeholderImage:nil];
     return _headImageView;
 }
+<<<<<<< HEAD
 
+=======
+// 个人账户
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 - (UILabel*)usernameLabel
 {
     if (!_usernameLabel) {
@@ -153,7 +169,11 @@
             //设置推送设置
             [self showHint:NSLocalizedString(@"setting.saving", "saving...")];
             __weak typeof(self) weakSelf = self;
+<<<<<<< HEAD
             //            设置推送消息显示的昵称
+=======
+            // 设置推送消息显示的昵称
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
             [[EMClient sharedClient] setApnsNickname:nameTextField.text];
             [[UserProfileManager sharedInstance] updateUserProfileInBackground:@{kPARSE_HXUSER_NICKNAME:nameTextField.text} completion:^(BOOL success, NSError *error) {
                 dispatch_async(dispatch_get_main_queue(), ^{
@@ -209,9 +229,15 @@
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
 {
     if (buttonIndex == 0) {
+<<<<<<< HEAD
         //#if TARGET_IPHONE_SIMULATOR
         //        [self showHint:NSLocalizedString(@"message.simulatorNotSupportCamera", @"simulator does not support taking picture")];
         //#elif TARGET_OS_IPHONE
+=======
+#if TARGET_IPHONE_SIMULATOR
+            [self showHint:NSLocalizedString(@"message.simulatorNotSupportCamera", @"simulator does not support taking picture")];
+#elif TARGET_OS_IPHONE
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
         if ([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
             self.imagePicker.sourceType = UIImagePickerControllerSourceTypeCamera;
             if ([UIImagePickerController isCameraDeviceAvailable:UIImagePickerControllerCameraDeviceFront]) {
@@ -222,7 +248,11 @@
         } else {
             
         }
+<<<<<<< HEAD
         //#endif
+=======
+#endif
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
     } else if (buttonIndex == 1) {
         self.imagePicker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
         self.imagePicker.mediaTypes = @[(NSString *)kUTTypeImage];

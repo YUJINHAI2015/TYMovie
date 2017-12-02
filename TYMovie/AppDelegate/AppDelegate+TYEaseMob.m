@@ -67,12 +67,16 @@
 
 - (void)loginStateChange:(NSNotification *)notification
 {
+<<<<<<< HEAD
     TYNavigationViewController *navigationController = nil;
     navigationController.navigationBar.accessibilityIdentifier = @"navigationbar";
+=======
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 
     BOOL loginSuccess = [notification.object boolValue];
     if (loginSuccess) {//登陆成功加载主窗口控制器
         //加载申请通知的数据
+<<<<<<< HEAD
 //        [[TYApplyViewController shareController] loadDataSourceFromLocalDB];
         if (self.mainController == nil) {
             self.mainController = [[TYMianViewController alloc] init];
@@ -86,6 +90,16 @@
 
         [TYChatHelper shareHelper].mainVC = self.mainController; // 初始化mainVC
         [[TYChatHelper shareHelper] asyncGroupFromServer];
+=======
+        [[TYApplyViewController shareController] loadDataSourceFromLocalDB];
+        if (self.mainController == nil) {
+            self.mainController = [[TYMianViewController alloc] init];
+        }
+
+        self.window.rootViewController = self.mainController;
+
+        [TYChatHelper shareHelper].mainVC = self.mainController; // 初始化mainVC
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
         [[TYChatHelper shareHelper] asyncConversationFromDB];
         [[TYChatHelper shareHelper] asyncPushOptions];
     }
@@ -99,6 +113,10 @@
         TYLoginViewController *loginController = InitVCFromStoryBoard(@"TYLoginStoryboard");
         self.window.rootViewController = loginController;
     }
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 }
 
 #pragma mark - EMPushManagerDelegateDevice

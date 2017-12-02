@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import <UserNotifications/UserNotifications.h>
+<<<<<<< HEAD
 
 @interface TYMianViewController : UITabBarController
+=======
+#import "TYTabBarViewController.h"
+@interface TYMianViewController : TYTabBarViewController
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 {
     EMConnectionState _connectionState;
 }

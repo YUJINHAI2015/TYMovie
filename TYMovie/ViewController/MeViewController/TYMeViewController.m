@@ -8,6 +8,10 @@
 
 #import "TYMeViewController.h"
 #import "TYUserProfileViewController.h"
+<<<<<<< HEAD
+=======
+#import "TYApplyViewController.h"
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 @interface TYMeViewController ()
 - (IBAction)profileAction:(UIButton *)sender;
 - (IBAction)logOutAction:(UIButton *)sender;
@@ -21,6 +25,7 @@
     // Do any additional setup after loading the view from its nib.
 }
 
+<<<<<<< HEAD
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -36,6 +41,8 @@
 }
 */
 
+=======
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 - (IBAction)profileAction:(UIButton *)sender {
     TYUserProfileViewController *user = [[TYUserProfileViewController alloc] init];
     [self.navigationController pushViewController:user animated:YES];
@@ -56,7 +63,11 @@
                 [weakSelf showHint:error.errorDescription];
             }
             else{
+<<<<<<< HEAD
 //                [[ApplyViewController shareController] clear];
+=======
+                [[TYApplyViewController shareController] clear];
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
                 [[NSNotificationCenter defaultCenter] postNotificationName:KNOTIFICATION_LOGINCHANGE object:@NO];
             }
         });

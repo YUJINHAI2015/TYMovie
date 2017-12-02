@@ -12,7 +12,11 @@
 #import "EMSearchBar.h"
 #import "EMSearchDisplayController.h"
 #import "RealtimeSearchUtil.h"
+<<<<<<< HEAD
 #import "SCUserProfileEntity.h"
+=======
+#import "UserProfileManager.h"
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 
 
 @implementation EMConversation (search)
@@ -21,6 +25,7 @@
 - (NSString*)showName
 {
     if (self.type == EMConversationTypeChat) {
+<<<<<<< HEAD
 //        if ([[RobotManager sharedInstance] isRobotWithUsername:self.conversationId]) {
 //            return [[RobotManager sharedInstance] getRobotNickWithUsername:self.conversationId];
 //        }
@@ -29,6 +34,9 @@
         if ([self.ext objectForKey:@"subject"] || [self.ext objectForKey:@"isPublic"]) {
             return [self.ext objectForKey:@"subject"];
         }
+=======
+        return [[UserProfileManager sharedInstance] getNickNameWithUsername:self.conversationId];
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
     }
     return self.conversationId;
 }
@@ -37,8 +45,13 @@
 @end
 @interface TYConversationListViewController ()<EaseConversationListViewControllerDelegate, EaseConversationListViewControllerDataSource,UISearchDisplayDelegate, UISearchBarDelegate>
 
+<<<<<<< HEAD
 @property (nonatomic, strong) UIView                *networkStateView;
 @property (nonatomic, strong) EMSearchBar           *searchBar;
+=======
+@property (nonatomic, strong) UIView                    *networkStateView;
+@property (nonatomic, strong) EMSearchBar               *searchBar;
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 @property (strong, nonatomic) EMSearchDisplayController *searchController;
 
 @end
@@ -46,7 +59,10 @@
 @implementation TYConversationListViewController
 - (void)viewDidLoad {
     [super viewDidLoad];
+<<<<<<< HEAD
     // Do any additional setup after loading the view.
+=======
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
     self.showRefreshHeader = YES;
     self.delegate = self;
     self.dataSource = self;
@@ -54,9 +70,19 @@
     [self networkStateView];
     
     [self tableViewDidTriggerHeaderRefresh];
+<<<<<<< HEAD
     [self searchController];
     [self removeEmptyConversationsFromDB];
     [self.view addSubview:self.searchBar];
+=======
+    
+    [self removeEmptyConversationsFromDB];
+    
+    [self searchController];
+    
+    [self.view addSubview:self.searchBar];
+    
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
     self.tableView.frame = CGRectMake(0, self.searchBar.frame.size.height, self.view.frame.size.width, self.view.frame.size.height - self.searchBar.frame.size.height);
 
 }
@@ -77,6 +103,7 @@
     
     if (needRemoveConversations && needRemoveConversations.count > 0) {
         [[EMClient sharedClient].chatManager deleteConversations:needRemoveConversations isDeleteMessages:YES completion:nil];
+<<<<<<< HEAD
         for (EMConversation *conversation in needRemoveConversations) {
             // 删除会话时删除本地头像昵称
             [SCUserProfileEntity removeUserProfileWithUsername:conversation.conversationId];
@@ -84,6 +111,22 @@
     }
 }
 
+=======
+    }
+}
+#pragma mark - setter
+- (UISearchBar *)searchBar
+{
+    if (!_searchBar) {
+        _searchBar = [[EMSearchBar alloc] initWithFrame: CGRectMake(0, 0, self.view.frame.size.width, 44)];
+        _searchBar.delegate = self;
+        _searchBar.placeholder = NSLocalizedString(@"search", @"search");
+        _searchBar.backgroundColor = [UIColor colorWithRed:0.747 green:0.756 blue:0.751 alpha:1.000];
+    }
+    
+    return _searchBar;
+}
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 #pragma mark - searchController
 - (EMSearchDisplayController *)searchController
 {
@@ -132,10 +175,57 @@
     return _searchController;
 }
 
+<<<<<<< HEAD
 #pragma mark - EaseConversationListViewControllerDelegate
 
 - (void)conversationListViewController:(EaseConversationListViewController *)conversationListViewController
             didSelectConversationModel:(id<IConversationModel>)conversationModel
+=======
+
+#pragma mark - UISearchBarDelegate
+
+- (BOOL)searchBarShouldBeginEditing:(UISearchBar *)searchBar
+{
+    [searchBar setShowsCancelButton:YES animated:YES];
+    
+    return YES;
+}
+
+- (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText
+{
+    __weak typeof(self) weakSelf = self;
+    [[RealtimeSearchUtil currentUtil] realtimeSearchWithSource:self.dataArray searchText:(NSString *)searchText collationStringSelector:@selector(title) resultBlock:^(NSArray *results) {
+        if (results) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [weakSelf.searchController.resultsSource removeAllObjects];
+                [weakSelf.searchController.resultsSource addObjectsFromArray:results];
+                [weakSelf.searchController.searchResultsTableView reloadData];
+            });
+        }
+    }];
+}
+
+- (BOOL)searchBarShouldEndEditing:(UISearchBar *)searchBar
+{
+    return YES;
+}
+
+- (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar
+{
+    [searchBar resignFirstResponder];
+}
+
+- (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar
+{
+    searchBar.text = @"";
+    [[RealtimeSearchUtil currentUtil] realtimeSearchStop];
+    [searchBar resignFirstResponder];
+    [searchBar setShowsCancelButton:NO animated:YES];
+}
+#pragma mark - EaseConversationListViewControllerDelegate
+
+- (void)conversationListViewController:(EaseConversationListViewController *)conversationListViewController didSelectConversationModel:(id<IConversationModel>)conversationModel
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 {
     if (conversationModel) {
         EMConversation *conversation = conversationModel.conversation;
@@ -153,6 +243,7 @@
 
 #pragma mark - EaseConversationListViewControllerDataSource
 
+<<<<<<< HEAD
 - (id<IConversationModel>)conversationListViewController:(EaseConversationListViewController *)conversationListViewController
                                     modelForConversation:(EMConversation *)conversation
 {
@@ -177,12 +268,28 @@
         } else {
             [SCUserProfileEntity saveUserProfileWithUsername:conversation.conversationId forNickName:nickName avatarURLPath:@"http://img.qq745.com/uploads/allimg/150304/4-150304134634-50.jpg"];
             model.avatarURLPath = [SCUserProfileEntity getavatarURLPathWithUsername:conversation.conversationId];
+=======
+- (id<IConversationModel>)conversationListViewController:(EaseConversationListViewController *)conversationListViewController modelForConversation:(EMConversation *)conversation
+{
+    // 获取到model
+    EaseConversationModel *model = [[EaseConversationModel alloc] initWithConversation:conversation];
+    if (model.conversation.type == EMConversationTypeChat) {
+        // 获取用户列表的信息（用属性列表）
+        UserProfileEntity *profileEntity = [[UserProfileManager sharedInstance] getUserProfileByUsername:conversation.conversationId];
+        if (profileEntity) {
+            model.title = profileEntity.nickname == nil ? profileEntity.username : profileEntity.nickname;
+            model.avatarURLPath = profileEntity.imageUrl;
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
         }
     }
     return model;
 }
 
+<<<<<<< HEAD
 
+=======
+//获取最后一条消息显示的内容
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 - (NSAttributedString *)conversationListViewController:(EaseConversationListViewController *)conversationListViewController
                 latestMessageTitleForConversationModel:(id<IConversationModel>)conversationModel
 {
@@ -245,6 +352,10 @@
     return attributedStr;
 }
 
+<<<<<<< HEAD
+=======
+// 获取最后一条消息显示的时间
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 - (NSString *)conversationListViewController:(EaseConversationListViewController *)conversationListViewController latestMessageTimeForConversationModel:(id<IConversationModel>)conversationModel
 {
     NSString *latestMessageTime = @"";
@@ -254,6 +365,7 @@
     }
     return latestMessageTime;
 }
+<<<<<<< HEAD
 #pragma mark - UISearchBarDelegate
 
 - (BOOL)searchBarShouldBeginEditing:(UISearchBar *)searchBar
@@ -295,6 +407,8 @@
     [searchBar setShowsCancelButton:NO animated:YES];
 }
 
+=======
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 -(void)refresh
 {
     [self refreshAndSortView];
@@ -344,6 +458,7 @@
     }
     return _networkStateView;
 }
+<<<<<<< HEAD
 #pragma mark - setter
 - (UISearchBar *)searchBar
 {
@@ -356,4 +471,7 @@
     
     return _searchBar;
 }
+=======
+
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 @end

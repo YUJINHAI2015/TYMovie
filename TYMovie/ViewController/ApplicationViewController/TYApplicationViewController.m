@@ -1,33 +1,22 @@
 //
-//  TYNavigationViewController.m
+//  TYApplicationViewController.m
 //  TYMovie
 //
-//  Created by 余锦海 on 17/3/12.
+//  Created by yiLian on 17/3/13.
 //  Copyright © 2017年 余锦海. All rights reserved.
 //
 
-#import "TYNavigationViewController.h"
+#import "TYApplicationViewController.h"
 
-@interface TYNavigationViewController ()
+@interface TYApplicationViewController ()
 
 @end
 
-@implementation TYNavigationViewController
+@implementation TYApplicationViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    [UINavigationBar appearance].translucent = NO;
-    [UINavigationBar appearance].tintColor=[UIColor whiteColor];
-    [UINavigationBar appearance].barTintColor=[UIColor ty_lightBlackColor];
-    [UINavigationBar appearance].titleTextAttributes=@{NSForegroundColorAttributeName:[UIColor whiteColor]};
-    
-<<<<<<< HEAD
-    
-
-=======
->>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 }
 
 - (void)didReceiveMemoryWarning {

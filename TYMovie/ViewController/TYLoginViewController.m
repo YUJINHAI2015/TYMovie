@@ -49,7 +49,10 @@ void TTAlertNoTitle(NSString* message) {
                 dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
                     [[EMClient sharedClient] migrateDatabaseToLatestSDK];
                     dispatch_async(dispatch_get_main_queue(), ^{
+<<<<<<< HEAD
                         [[TYChatHelper shareHelper] asyncGroupFromServer];
+=======
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
                         [[TYChatHelper shareHelper] asyncConversationFromDB];
                         [[TYChatHelper shareHelper] asyncPushOptions];
 //                        [MBProgressHUD hideAllHUDsForView:weakself.view animated:YES];

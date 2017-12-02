@@ -142,6 +142,7 @@
 		2443B1CD1E756C92002404EE /* EaseRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443B1531E756C92002404EE /* EaseRecordView.m */; };
 		2443B1CE1E756C92002404EE /* EaseConversationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443B1561E756C92002404EE /* EaseConversationCell.m */; };
 		2443B1CF1E756C92002404EE /* EaseUIResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2443B1581E756C92002404EE /* EaseUIResource.bundle */; };
+<<<<<<< HEAD
 		2443B1D21E7572CE002404EE /* TYUserListStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2443B1D11E7572CE002404EE /* TYUserListStoryboard.storyboard */; };
 		2443B1D41E757331002404EE /* TYConversationListStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2443B1D31E757331002404EE /* TYConversationListStoryboard.storyboard */; };
 		2443B1D61E75734B002404EE /* TYLoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2443B1D51E75734A002404EE /* TYLoginStoryboard.storyboard */; };
@@ -155,6 +156,14 @@
 		2443B20D1E75774F002404EE /* AppDelegate+TYEaseMob.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443B20C1E75774F002404EE /* AppDelegate+TYEaseMob.m */; };
 		2443B2111E75793F002404EE /* TYChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443B2101E75793F002404EE /* TYChatViewController.m */; };
 		2443B2151E757DE3002404EE /* TYApplyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443B2141E757DE3002404EE /* TYApplyViewController.m */; };
+=======
+		2443B1D61E75734B002404EE /* TYLoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2443B1D51E75734A002404EE /* TYLoginStoryboard.storyboard */; };
+		2443B1DA1E7573BB002404EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443B1D91E7573BB002404EE /* AppDelegate.m */; };
+		2443B1FC1E757504002404EE /* TYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443B1FB1E757504002404EE /* TYLoginViewController.m */; };
+		2443B2091E7576C1002404EE /* TYMianViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443B2081E7576C1002404EE /* TYMianViewController.m */; };
+		2443B20D1E75774F002404EE /* AppDelegate+TYEaseMob.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443B20C1E75774F002404EE /* AppDelegate+TYEaseMob.m */; };
+		2443B2111E75793F002404EE /* TYChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443B2101E75793F002404EE /* TYChatViewController.m */; };
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 		2443B2191E757FBB002404EE /* TYNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443B2181E757FBB002404EE /* TYNavigationViewController.m */; };
 		2443B2281E7598B2002404EE /* EMSearchResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443B2251E7598B2002404EE /* EMSearchResultController.m */; };
 		2443B2291E7598B2002404EE /* UIViewController+SearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443B2271E7598B2002404EE /* UIViewController+SearchController.m */; };
@@ -271,6 +280,7 @@
 		2443B3231E759E4E002404EE /* tabbarBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2443B2B31E759E4D002404EE /* tabbarBackground@2x.png */; };
 		2443B3241E759E4E002404EE /* tabbarSelectBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2443B2B41E759E4D002404EE /* tabbarSelectBg.png */; };
 		2443B3251E759E4E002404EE /* tabbarSelectBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2443B2B51E759E4D002404EE /* tabbarSelectBg@2x.png */; };
+<<<<<<< HEAD
 		2B03D7D71E7636B1007232BB /* TYApplicationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B03D7D61E7636B1007232BB /* TYApplicationViewController.m */; };
 		2B03D7DF1E763FFD007232BB /* EMChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B03D7DE1E763FFD007232BB /* EMChooseViewController.m */; };
 		2B03D8531E766C7F007232BB /* EMSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B03D8521E766C7F007232BB /* EMSearchBar.m */; };
@@ -279,10 +289,20 @@
 		2B03D8621E769524007232BB /* yjhHeadImg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B03D8611E769524007232BB /* yjhHeadImg.jpg */; };
 		2B03D8651E769CDB007232BB /* RealtimeSearchUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B03D8641E769CDB007232BB /* RealtimeSearchUtil.m */; };
 		2B03D8681E769D61007232BB /* TYUserListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B03D8671E769D61007232BB /* TYUserListViewController.m */; };
+=======
+		2454D5611E7837520006CEE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2454D5631E7837520006CEE8 /* InfoPlist.strings */; };
+		2454D5671E7837BA0006CEE8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2454D5691E7837BA0006CEE8 /* Localizable.strings */; };
+		2B03D7DF1E763FFD007232BB /* EMChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B03D7DE1E763FFD007232BB /* EMChooseViewController.m */; };
+		2B03D8531E766C7F007232BB /* EMSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B03D8521E766C7F007232BB /* EMSearchBar.m */; };
+		2B03D8561E766C8C007232BB /* EMSearchDisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B03D8551E766C8C007232BB /* EMSearchDisplayController.m */; };
+		2B03D8621E769524007232BB /* yjhHeadImg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B03D8611E769524007232BB /* yjhHeadImg.jpg */; };
+		2B03D8651E769CDB007232BB /* RealtimeSearchUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B03D8641E769CDB007232BB /* RealtimeSearchUtil.m */; };
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 		2B03D86B1E769DD5007232BB /* TYConversationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B03D86A1E769DD5007232BB /* TYConversationListViewController.m */; };
 		2B0EDBCD1E77948300E27527 /* TYMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0EDBCB1E77948300E27527 /* TYMeViewController.m */; };
 		2B0EDBCE1E77948300E27527 /* TYMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B0EDBCC1E77948300E27527 /* TYMeViewController.xib */; };
 		2B0EDBD11E77962000E27527 /* TYUserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0EDBD01E77962000E27527 /* TYUserProfileViewController.m */; };
+<<<<<<< HEAD
 		2B0EDBD71E77C44500E27527 /* UserProfileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0EDBD41E77C44500E27527 /* UserProfileManager.m */; };
 		2B0EDBE31E77EA4E00E27527 /* UIImageView+HeadImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0EDBDE1E77EA4E00E27527 /* UIImageView+HeadImage.m */; };
 		2B0EDBE41E77EA4E00E27527 /* UIResponder+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0EDBE01E77EA4E00E27527 /* UIResponder+Router.m */; };
@@ -293,6 +313,26 @@
 		2B0EDBF41E77F45B00E27527 /* ApplyFriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0EDBEF1E77F45B00E27527 /* ApplyFriendCell.m */; };
 		2B0EDBF51E77F45B00E27527 /* ApplyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0EDBF11E77F45B00E27527 /* ApplyViewController.m */; };
 		2B0EDBF81E77F4A700E27527 /* InvitationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0EDBF71E77F4A700E27527 /* InvitationManager.m */; };
+=======
+		2B0EDBE31E77EA4E00E27527 /* UIImageView+HeadImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0EDBDE1E77EA4E00E27527 /* UIImageView+HeadImage.m */; };
+		2B0EDBE41E77EA4E00E27527 /* UIResponder+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0EDBE01E77EA4E00E27527 /* UIResponder+Router.m */; };
+		2B0EDBE51E77EA4E00E27527 /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0EDBE21E77EA4E00E27527 /* UIViewController+HUD.m */; };
+		2B25B2F41E7B7ED1003D42EE /* EMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B25B2F31E7B7ED1003D42EE /* EMAlertView.m */; };
+		2B25B2FC1E7B85D6003D42EE /* UIButton+LXLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B25B2F71E7B85D6003D42EE /* UIButton+LXLayout.m */; };
+		2B25B2FD1E7B85D6003D42EE /* UIColor+TYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B25B2F91E7B85D6003D42EE /* UIColor+TYAdd.m */; };
+		2B25B2FE1E7B85D6003D42EE /* UIView+ZSLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B25B2FB1E7B85D6003D42EE /* UIView+ZSLAdd.m */; };
+		2B25B3011E7B9011003D42EE /* TYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B25B3001E7B9011003D42EE /* TYTabBarViewController.m */; };
+		2BFC73D91E7CDC1200591A67 /* TYChatHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFC73D81E7CDC1200591A67 /* TYChatHelper.m */; };
+		2BFC73DF1E7CDC6400591A67 /* InvitationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFC73DC1E7CDC6400591A67 /* InvitationManager.m */; };
+		2BFC73E01E7CDC6400591A67 /* UserProfileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFC73DE1E7CDC6400591A67 /* UserProfileManager.m */; };
+		2BFC73E41E7CDD2600591A67 /* TYApplicationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFC73E31E7CDD2600591A67 /* TYApplicationViewController.m */; };
+		2BFC73F31E7CDD8700591A67 /* ContactListSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFC73E71E7CDD8700591A67 /* ContactListSelectViewController.m */; };
+		2BFC73F41E7CDD8700591A67 /* AddFriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFC73EA1E7CDD8700591A67 /* AddFriendCell.m */; };
+		2BFC73F51E7CDD8700591A67 /* AddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFC73EC1E7CDD8700591A67 /* AddFriendViewController.m */; };
+		2BFC73F61E7CDD8700591A67 /* ApplyFriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFC73EE1E7CDD8700591A67 /* ApplyFriendCell.m */; };
+		2BFC73F71E7CDD8700591A67 /* TYApplyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFC73F01E7CDD8700591A67 /* TYApplyViewController.m */; };
+		2BFC73F81E7CDD8700591A67 /* TYUserListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFC73F21E7CDD8700591A67 /* TYUserListViewController.m */; };
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -603,6 +643,7 @@
 		2443B1561E756C92002404EE /* EaseConversationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseConversationCell.m; sourceTree = "<group>"; };
 		2443B1581E756C92002404EE /* EaseUIResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EaseUIResource.bundle; sourceTree = "<group>"; };
 		2443B1D01E756D89002404EE /* TYMovie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TYMovie-Prefix.pch"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		2443B1D11E7572CE002404EE /* TYUserListStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TYUserListStoryboard.storyboard; sourceTree = "<group>"; };
 		2443B1D31E757331002404EE /* TYConversationListStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TYConversationListStoryboard.storyboard; sourceTree = "<group>"; };
 		2443B1D51E75734A002404EE /* TYLoginStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TYLoginStoryboard.storyboard; sourceTree = "<group>"; };
@@ -618,6 +659,13 @@
 		2443B1FB1E757504002404EE /* TYLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLoginViewController.m; sourceTree = "<group>"; };
 		2443B2031E757556002404EE /* TYChatHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYChatHelper.h; sourceTree = "<group>"; };
 		2443B2041E757556002404EE /* TYChatHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYChatHelper.m; sourceTree = "<group>"; };
+=======
+		2443B1D51E75734A002404EE /* TYLoginStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TYLoginStoryboard.storyboard; sourceTree = "<group>"; };
+		2443B1D81E7573BB002404EE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2443B1D91E7573BB002404EE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2443B1FA1E757504002404EE /* TYLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLoginViewController.h; sourceTree = "<group>"; };
+		2443B1FB1E757504002404EE /* TYLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLoginViewController.m; sourceTree = "<group>"; };
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 		2443B2061E75762F002404EE /* TYMovieUIDefine.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYMovieUIDefine.pch; sourceTree = "<group>"; };
 		2443B2071E7576C1002404EE /* TYMianViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYMianViewController.h; sourceTree = "<group>"; };
 		2443B2081E7576C1002404EE /* TYMianViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYMianViewController.m; sourceTree = "<group>"; };
@@ -625,8 +673,11 @@
 		2443B20C1E75774F002404EE /* AppDelegate+TYEaseMob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+TYEaseMob.m"; sourceTree = "<group>"; };
 		2443B20F1E75793F002404EE /* TYChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYChatViewController.h; sourceTree = "<group>"; };
 		2443B2101E75793F002404EE /* TYChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYChatViewController.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		2443B2131E757DE3002404EE /* TYApplyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYApplyViewController.h; sourceTree = "<group>"; };
 		2443B2141E757DE3002404EE /* TYApplyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYApplyViewController.m; sourceTree = "<group>"; };
+=======
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 		2443B2171E757FBB002404EE /* TYNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYNavigationViewController.h; sourceTree = "<group>"; };
 		2443B2181E757FBB002404EE /* TYNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYNavigationViewController.m; sourceTree = "<group>"; };
 		2443B2231E7598B2002404EE /* EMSearchControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSearchControllerDelegate.h; sourceTree = "<group>"; };
@@ -748,14 +799,23 @@
 		2443B2B31E759E4D002404EE /* tabbarBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbarBackground@2x.png"; sourceTree = "<group>"; };
 		2443B2B41E759E4D002404EE /* tabbarSelectBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbarSelectBg.png; sourceTree = "<group>"; };
 		2443B2B51E759E4D002404EE /* tabbarSelectBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbarSelectBg@2x.png"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		2B03D7D51E7636B1007232BB /* TYApplicationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYApplicationViewController.h; sourceTree = "<group>"; };
 		2B03D7D61E7636B1007232BB /* TYApplicationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYApplicationViewController.m; sourceTree = "<group>"; };
+=======
+		2454D55E1E7836CB0006CEE8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		2454D5621E7837520006CEE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2454D5641E7837560006CEE8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		2454D5681E7837BA0006CEE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2454D56A1E7837BC0006CEE8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 		2B03D7DD1E763FFD007232BB /* EMChooseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChooseViewController.h; sourceTree = "<group>"; };
 		2B03D7DE1E763FFD007232BB /* EMChooseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMChooseViewController.m; sourceTree = "<group>"; };
 		2B03D8511E766C7F007232BB /* EMSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSearchBar.h; sourceTree = "<group>"; };
 		2B03D8521E766C7F007232BB /* EMSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMSearchBar.m; sourceTree = "<group>"; };
 		2B03D8541E766C8C007232BB /* EMSearchDisplayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSearchDisplayController.h; sourceTree = "<group>"; };
 		2B03D8551E766C8C007232BB /* EMSearchDisplayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMSearchDisplayController.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		2B03D8571E766CC9007232BB /* SCUserProfileEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCUserProfileEntity.h; sourceTree = "<group>"; };
 		2B03D8581E766CC9007232BB /* SCUserProfileEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCUserProfileEntity.m; sourceTree = "<group>"; };
 		2B03D8611E769524007232BB /* yjhHeadImg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yjhHeadImg.jpg; sourceTree = "<group>"; };
@@ -763,6 +823,11 @@
 		2B03D8641E769CDB007232BB /* RealtimeSearchUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealtimeSearchUtil.m; sourceTree = "<group>"; };
 		2B03D8661E769D61007232BB /* TYUserListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYUserListViewController.h; sourceTree = "<group>"; };
 		2B03D8671E769D61007232BB /* TYUserListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYUserListViewController.m; sourceTree = "<group>"; };
+=======
+		2B03D8611E769524007232BB /* yjhHeadImg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yjhHeadImg.jpg; sourceTree = "<group>"; };
+		2B03D8631E769CDB007232BB /* RealtimeSearchUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealtimeSearchUtil.h; sourceTree = "<group>"; };
+		2B03D8641E769CDB007232BB /* RealtimeSearchUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealtimeSearchUtil.m; sourceTree = "<group>"; };
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 		2B03D8691E769DD5007232BB /* TYConversationListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYConversationListViewController.h; sourceTree = "<group>"; };
 		2B03D86A1E769DD5007232BB /* TYConversationListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYConversationListViewController.m; sourceTree = "<group>"; };
 		2B0EDBCA1E77948300E27527 /* TYMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYMeViewController.h; sourceTree = "<group>"; };
@@ -770,14 +835,18 @@
 		2B0EDBCC1E77948300E27527 /* TYMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYMeViewController.xib; sourceTree = "<group>"; };
 		2B0EDBCF1E77962000E27527 /* TYUserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYUserProfileViewController.h; sourceTree = "<group>"; };
 		2B0EDBD01E77962000E27527 /* TYUserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYUserProfileViewController.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		2B0EDBD31E77C44500E27527 /* UserProfileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfileManager.h; sourceTree = "<group>"; };
 		2B0EDBD41E77C44500E27527 /* UserProfileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileManager.m; sourceTree = "<group>"; };
+=======
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 		2B0EDBDD1E77EA4E00E27527 /* UIImageView+HeadImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HeadImage.h"; sourceTree = "<group>"; };
 		2B0EDBDE1E77EA4E00E27527 /* UIImageView+HeadImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HeadImage.m"; sourceTree = "<group>"; };
 		2B0EDBDF1E77EA4E00E27527 /* UIResponder+Router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Router.h"; sourceTree = "<group>"; };
 		2B0EDBE01E77EA4E00E27527 /* UIResponder+Router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Router.m"; sourceTree = "<group>"; };
 		2B0EDBE11E77EA4E00E27527 /* UIViewController+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
 		2B0EDBE21E77EA4E00E27527 /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		2B0EDBE61E77F3F800E27527 /* ContactListSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactListSelectViewController.h; sourceTree = "<group>"; };
 		2B0EDBE71E77F3F800E27527 /* ContactListSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactListSelectViewController.m; sourceTree = "<group>"; };
 		2B0EDBEA1E77F45B00E27527 /* AddFriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriendCell.h; sourceTree = "<group>"; };
@@ -790,6 +859,40 @@
 		2B0EDBF11E77F45B00E27527 /* ApplyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplyViewController.m; sourceTree = "<group>"; };
 		2B0EDBF61E77F4A700E27527 /* InvitationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvitationManager.h; sourceTree = "<group>"; };
 		2B0EDBF71E77F4A700E27527 /* InvitationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvitationManager.m; sourceTree = "<group>"; };
+=======
+		2B25B2F01E7B76C4003D42EE /* TYMovie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TYMovie.entitlements; sourceTree = "<group>"; };
+		2B25B2F21E7B7ED1003D42EE /* EMAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMAlertView.h; sourceTree = "<group>"; };
+		2B25B2F31E7B7ED1003D42EE /* EMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMAlertView.m; sourceTree = "<group>"; };
+		2B25B2F61E7B85D6003D42EE /* UIButton+LXLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LXLayout.h"; sourceTree = "<group>"; };
+		2B25B2F71E7B85D6003D42EE /* UIButton+LXLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LXLayout.m"; sourceTree = "<group>"; };
+		2B25B2F81E7B85D6003D42EE /* UIColor+TYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TYAdd.h"; sourceTree = "<group>"; };
+		2B25B2F91E7B85D6003D42EE /* UIColor+TYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TYAdd.m"; sourceTree = "<group>"; };
+		2B25B2FA1E7B85D6003D42EE /* UIView+ZSLAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZSLAdd.h"; sourceTree = "<group>"; };
+		2B25B2FB1E7B85D6003D42EE /* UIView+ZSLAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZSLAdd.m"; sourceTree = "<group>"; };
+		2B25B2FF1E7B9011003D42EE /* TYTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabBarViewController.h; sourceTree = "<group>"; };
+		2B25B3001E7B9011003D42EE /* TYTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabBarViewController.m; sourceTree = "<group>"; };
+		2BE8DE501E7A823A00FBEDF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2BFC73D71E7CDC1200591A67 /* TYChatHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYChatHelper.h; sourceTree = "<group>"; };
+		2BFC73D81E7CDC1200591A67 /* TYChatHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYChatHelper.m; sourceTree = "<group>"; };
+		2BFC73DB1E7CDC6400591A67 /* InvitationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvitationManager.h; sourceTree = "<group>"; };
+		2BFC73DC1E7CDC6400591A67 /* InvitationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvitationManager.m; sourceTree = "<group>"; };
+		2BFC73DD1E7CDC6400591A67 /* UserProfileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfileManager.h; sourceTree = "<group>"; };
+		2BFC73DE1E7CDC6400591A67 /* UserProfileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileManager.m; sourceTree = "<group>"; };
+		2BFC73E21E7CDD2600591A67 /* TYApplicationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYApplicationViewController.h; sourceTree = "<group>"; };
+		2BFC73E31E7CDD2600591A67 /* TYApplicationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYApplicationViewController.m; sourceTree = "<group>"; };
+		2BFC73E61E7CDD8700591A67 /* ContactListSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactListSelectViewController.h; sourceTree = "<group>"; };
+		2BFC73E71E7CDD8700591A67 /* ContactListSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactListSelectViewController.m; sourceTree = "<group>"; };
+		2BFC73E91E7CDD8700591A67 /* AddFriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriendCell.h; sourceTree = "<group>"; };
+		2BFC73EA1E7CDD8700591A67 /* AddFriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriendCell.m; sourceTree = "<group>"; };
+		2BFC73EB1E7CDD8700591A67 /* AddFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriendViewController.h; sourceTree = "<group>"; };
+		2BFC73EC1E7CDD8700591A67 /* AddFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriendViewController.m; sourceTree = "<group>"; };
+		2BFC73ED1E7CDD8700591A67 /* ApplyFriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplyFriendCell.h; sourceTree = "<group>"; };
+		2BFC73EE1E7CDD8700591A67 /* ApplyFriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplyFriendCell.m; sourceTree = "<group>"; };
+		2BFC73EF1E7CDD8700591A67 /* TYApplyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYApplyViewController.h; sourceTree = "<group>"; };
+		2BFC73F01E7CDD8700591A67 /* TYApplyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYApplyViewController.m; sourceTree = "<group>"; };
+		2BFC73F11E7CDD8700591A67 /* TYUserListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYUserListViewController.h; sourceTree = "<group>"; };
+		2BFC73F21E7CDD8700591A67 /* TYUserListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYUserListViewController.m; sourceTree = "<group>"; };
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -853,12 +956,19 @@
 		2443AFE51E7569ED002404EE /* TYMovie */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				2B0EDBDC1E77EA4E00E27527 /* Category */,
 				2B0EDBD21E77C44500E27527 /* Profile */,
+=======
+				2B25B2F01E7B76C4003D42EE /* TYMovie.entitlements */,
+				2443B1DC1E757450002404EE /* Resource */,
+				2B0EDBDC1E77EA4E00E27527 /* Category */,
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				2443B2211E759890002404EE /* Custom */,
 				2443B0321E756C92002404EE /* EaseUI */,
 				2443B0191E756AF2002404EE /* HyphenateSDK */,
 				2443B1D71E7573BB002404EE /* AppDelegate */,
+<<<<<<< HEAD
 				2443B1F91E7574AB002404EE /* Manager */,
 				2443B1EE1E75747B002404EE /* Expand */,
 				2443B1DC1E757450002404EE /* Resource */,
@@ -866,6 +976,10 @@
 				2443B1D51E75734A002404EE /* TYLoginStoryboard.storyboard */,
 				2443B1D31E757331002404EE /* TYConversationListStoryboard.storyboard */,
 				2443B1D11E7572CE002404EE /* TYUserListStoryboard.storyboard */,
+=======
+				2443B1DB1E757406002404EE /* ViewController */,
+				2443B1D51E75734A002404EE /* TYLoginStoryboard.storyboard */,
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				2443AFE61E7569ED002404EE /* Supporting Files */,
 			);
 			path = TYMovie;
@@ -879,6 +993,11 @@
 				2443B1D01E756D89002404EE /* TYMovie-Prefix.pch */,
 				2443B2061E75762F002404EE /* TYMovieUIDefine.pch */,
 				2443AFE71E7569ED002404EE /* main.m */,
+<<<<<<< HEAD
+=======
+				2454D5691E7837BA0006CEE8 /* Localizable.strings */,
+				2454D5631E7837520006CEE8 /* InfoPlist.strings */,
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				2443AFF71E7569ED002404EE /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -1521,6 +1640,7 @@
 		2443B1DB1E757406002404EE /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				2B0EDBC61E7793DA00E27527 /* MeViewController */,
 				2443B2161E757F99002404EE /* BaseViewController */,
 				2443B2121E757DCF002404EE /* Contacts */,
@@ -1529,6 +1649,17 @@
 				2443B1FB1E757504002404EE /* TYLoginViewController.m */,
 				2B03D7D51E7636B1007232BB /* TYApplicationViewController.h */,
 				2B03D7D61E7636B1007232BB /* TYApplicationViewController.m */,
+=======
+				2443B20E1E757928002404EE /* ChatViewController */,
+				2BFC73E51E7CDD8700591A67 /* ContactsViewController */,
+				2BFC73E11E7CDD2600591A67 /* ApplicationViewController */,
+				2B0EDBC61E7793DA00E27527 /* MeViewController */,
+				2BFC73DA1E7CDC6400591A67 /* Profile */,
+				2BFC73D61E7CDC1200591A67 /* Manager */,
+				2443B2161E757F99002404EE /* BaseViewController */,
+				2443B1FA1E757504002404EE /* TYLoginViewController.h */,
+				2443B1FB1E757504002404EE /* TYLoginViewController.m */,
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				2443B2071E7576C1002404EE /* TYMianViewController.h */,
 				2443B2081E7576C1002404EE /* TYMianViewController.m */,
 				2B03D8611E769524007232BB /* yjhHeadImg.jpg */,
@@ -1551,6 +1682,7 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		2443B1EE1E75747B002404EE /* Expand */ = {
 			isa = PBXGroup;
 			children = (
@@ -1581,6 +1713,8 @@
 			path = Manager;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 		2443B20E1E757928002404EE /* ChatViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -1590,6 +1724,7 @@
 			path = ChatViewController;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		2443B2121E757DCF002404EE /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
@@ -1604,11 +1739,18 @@
 			path = Contacts;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 		2443B2161E757F99002404EE /* BaseViewController */ = {
 			isa = PBXGroup;
 			children = (
 				2443B2171E757FBB002404EE /* TYNavigationViewController.h */,
 				2443B2181E757FBB002404EE /* TYNavigationViewController.m */,
+<<<<<<< HEAD
+=======
+				2B25B2FF1E7B9011003D42EE /* TYTabBarViewController.h */,
+				2B25B3001E7B9011003D42EE /* TYTabBarViewController.m */,
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 			);
 			path = BaseViewController;
 			sourceTree = "<group>";
@@ -1616,6 +1758,10 @@
 		2443B2211E759890002404EE /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
+=======
+				2B25B2F11E7B7ED1003D42EE /* EMAlertView */,
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				2B03D7DD1E763FFD007232BB /* EMChooseViewController.h */,
 				2B03D7DE1E763FFD007232BB /* EMChooseViewController.m */,
 				2443B22A1E7598F5002404EE /* BaseTableViewCell.h */,
@@ -1630,8 +1776,11 @@
 			children = (
 				2B03D8631E769CDB007232BB /* RealtimeSearchUtil.h */,
 				2B03D8641E769CDB007232BB /* RealtimeSearchUtil.m */,
+<<<<<<< HEAD
 				2B03D8571E766CC9007232BB /* SCUserProfileEntity.h */,
 				2B03D8581E766CC9007232BB /* SCUserProfileEntity.m */,
+=======
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				2B03D8541E766C8C007232BB /* EMSearchDisplayController.h */,
 				2B03D8551E766C8C007232BB /* EMSearchDisplayController.m */,
 				2B03D8511E766C7F007232BB /* EMSearchBar.h */,
@@ -1875,6 +2024,7 @@
 			path = MeViewController;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		2B0EDBD21E77C44500E27527 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
@@ -1890,6 +2040,12 @@
 		2B0EDBDC1E77EA4E00E27527 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+=======
+		2B0EDBDC1E77EA4E00E27527 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2B25B2F51E7B85D6003D42EE /* UI */,
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				2B0EDBDD1E77EA4E00E27527 /* UIImageView+HeadImage.h */,
 				2B0EDBDE1E77EA4E00E27527 /* UIImageView+HeadImage.m */,
 				2B0EDBDF1E77EA4E00E27527 /* UIResponder+Router.h */,
@@ -1900,6 +2056,7 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		2B0EDBE91E77F45B00E27527 /* FriendApply */ = {
 			isa = PBXGroup;
 			children = (
@@ -1911,6 +2068,82 @@
 				2B0EDBEF1E77F45B00E27527 /* ApplyFriendCell.m */,
 				2B0EDBF01E77F45B00E27527 /* ApplyViewController.h */,
 				2B0EDBF11E77F45B00E27527 /* ApplyViewController.m */,
+=======
+		2B25B2F11E7B7ED1003D42EE /* EMAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				2B25B2F21E7B7ED1003D42EE /* EMAlertView.h */,
+				2B25B2F31E7B7ED1003D42EE /* EMAlertView.m */,
+			);
+			path = EMAlertView;
+			sourceTree = "<group>";
+		};
+		2B25B2F51E7B85D6003D42EE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2B25B2F61E7B85D6003D42EE /* UIButton+LXLayout.h */,
+				2B25B2F71E7B85D6003D42EE /* UIButton+LXLayout.m */,
+				2B25B2F81E7B85D6003D42EE /* UIColor+TYAdd.h */,
+				2B25B2F91E7B85D6003D42EE /* UIColor+TYAdd.m */,
+				2B25B2FA1E7B85D6003D42EE /* UIView+ZSLAdd.h */,
+				2B25B2FB1E7B85D6003D42EE /* UIView+ZSLAdd.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2BFC73D61E7CDC1200591A67 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				2BFC73D71E7CDC1200591A67 /* TYChatHelper.h */,
+				2BFC73D81E7CDC1200591A67 /* TYChatHelper.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		2BFC73DA1E7CDC6400591A67 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2BFC73DB1E7CDC6400591A67 /* InvitationManager.h */,
+				2BFC73DC1E7CDC6400591A67 /* InvitationManager.m */,
+				2BFC73DD1E7CDC6400591A67 /* UserProfileManager.h */,
+				2BFC73DE1E7CDC6400591A67 /* UserProfileManager.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		2BFC73E11E7CDD2600591A67 /* ApplicationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2BFC73E21E7CDD2600591A67 /* TYApplicationViewController.h */,
+				2BFC73E31E7CDD2600591A67 /* TYApplicationViewController.m */,
+			);
+			path = ApplicationViewController;
+			sourceTree = "<group>";
+		};
+		2BFC73E51E7CDD8700591A67 /* ContactsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2BFC73E61E7CDD8700591A67 /* ContactListSelectViewController.h */,
+				2BFC73E71E7CDD8700591A67 /* ContactListSelectViewController.m */,
+				2BFC73E81E7CDD8700591A67 /* FriendApply */,
+				2BFC73F11E7CDD8700591A67 /* TYUserListViewController.h */,
+				2BFC73F21E7CDD8700591A67 /* TYUserListViewController.m */,
+			);
+			path = ContactsViewController;
+			sourceTree = "<group>";
+		};
+		2BFC73E81E7CDD8700591A67 /* FriendApply */ = {
+			isa = PBXGroup;
+			children = (
+				2BFC73E91E7CDD8700591A67 /* AddFriendCell.h */,
+				2BFC73EA1E7CDD8700591A67 /* AddFriendCell.m */,
+				2BFC73EB1E7CDD8700591A67 /* AddFriendViewController.h */,
+				2BFC73EC1E7CDD8700591A67 /* AddFriendViewController.m */,
+				2BFC73ED1E7CDD8700591A67 /* ApplyFriendCell.h */,
+				2BFC73EE1E7CDD8700591A67 /* ApplyFriendCell.m */,
+				2BFC73EF1E7CDD8700591A67 /* TYApplyViewController.h */,
+				2BFC73F01E7CDD8700591A67 /* TYApplyViewController.m */,
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 			);
 			path = FriendApply;
 			sourceTree = "<group>";
@@ -1986,6 +2219,14 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = SJ693K9RKT;
 						ProvisioningStyle = Automatic;
+<<<<<<< HEAD
+=======
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 					};
 					2443AFFB1E7569ED002404EE = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -2008,6 +2249,10 @@
 			knownRegions = (
 				en,
 				Base,
+<<<<<<< HEAD
+=======
+				"zh-Hans",
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 			);
 			mainGroup = 2443AFDA1E7569ED002404EE;
 			productRefGroup = 2443AFE41E7569ED002404EE /* Products */;
@@ -2062,7 +2307,10 @@
 				2443B30F1E759E4E002404EE /* group_joinpublicgroup@2x.png in Resources */,
 				2443B3111E759E4E002404EE /* group_participant_addHL@2x.png in Resources */,
 				2443B1D61E75734B002404EE /* TYLoginStoryboard.storyboard in Resources */,
+<<<<<<< HEAD
 				2443B1D41E757331002404EE /* TYConversationListStoryboard.storyboard in Resources */,
+=======
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				2443B2E71E759E4E002404EE /* icon_010_cover.png in Resources */,
 				2443B2DE1E759E4D002404EE /* chat_sender_audio_playing_003@2x.png in Resources */,
 				2443B2D61E759E4D002404EE /* chat_receiver_audio_playing002@2x.png in Resources */,
@@ -2096,6 +2344,10 @@
 				2443B2ED1E759E4E002404EE /* icon_018_cover.png in Resources */,
 				2443B2FF1E759E4E002404EE /* icon_035_cover.png in Resources */,
 				2443B2DC1E759E4D002404EE /* chat_sender_audio_playing_001@2x.png in Resources */,
+<<<<<<< HEAD
+=======
+				2454D5611E7837520006CEE8 /* InfoPlist.strings in Resources */,
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				2443B2EB1E759E4E002404EE /* icon_013_cover.png in Resources */,
 				2443B2D01E759E4D002404EE /* faceDelete.png in Resources */,
 				2443B2C51E759E4D002404EE /* call_silence_h@2x.png in Resources */,
@@ -2112,7 +2364,10 @@
 				2443B1761E756C92002404EE /* MJRefresh.bundle in Resources */,
 				2443B2BF1E759E4D002404EE /* call_out@2x.png in Resources */,
 				2443B2F61E759E4E002404EE /* icon_024.gif in Resources */,
+<<<<<<< HEAD
 				2443B1D21E7572CE002404EE /* TYUserListStoryboard.storyboard in Resources */,
+=======
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				2443B2F11E759E4E002404EE /* icon_020_cover.png in Resources */,
 				2443B3071E759E4E002404EE /* back@2x.png in Resources */,
 				2443B30D1E759E4E002404EE /* group_header@2x.png in Resources */,
@@ -2134,6 +2389,10 @@
 				2443B1A11E756C92002404EE /* MWPhotoBrowser.bundle in Resources */,
 				2443B2E81E759E4E002404EE /* icon_012.gif in Resources */,
 				2443B2E01E759E4D002404EE /* chat_sender_bg.png in Resources */,
+<<<<<<< HEAD
+=======
+				2454D5671E7837BA0006CEE8 /* Localizable.strings in Resources */,
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				2443B2CC1E759E4D002404EE /* chat_location_detail_disclosureHL.png in Resources */,
 				2443B31F1E759E4E002404EE /* tabbar_setting@2x.png in Resources */,
 				2443B2EF1E759E4E002404EE /* icon_019_cover.png in Resources */,
@@ -2177,12 +2436,20 @@
 				2443B16D1E756C92002404EE /* MJRefreshAutoGifFooter.m in Sources */,
 				2443B15A1E756C92002404EE /* EMAudioPlayerUtil.m in Sources */,
 				2443B1701E756C92002404EE /* MJRefreshBackGifFooter.m in Sources */,
+<<<<<<< HEAD
 				2B03D7D71E7636B1007232BB /* TYApplicationViewController.m in Sources */,
 				2443B15C1E756C92002404EE /* EMCDDeviceManager+Media.m in Sources */,
 				2B03D8561E766C8C007232BB /* EMSearchDisplayController.m in Sources */,
 				2443B1C71E756C92002404EE /* EaseChatToolbarItem.m in Sources */,
 				2B0EDBE81E77F3F800E27527 /* ContactListSelectViewController.m in Sources */,
 				2443B1B91E756C92002404EE /* EaseUserCell.m in Sources */,
+=======
+				2443B15C1E756C92002404EE /* EMCDDeviceManager+Media.m in Sources */,
+				2B03D8561E766C8C007232BB /* EMSearchDisplayController.m in Sources */,
+				2443B1C71E756C92002404EE /* EaseChatToolbarItem.m in Sources */,
+				2443B1B91E756C92002404EE /* EaseUserCell.m in Sources */,
+				2BFC73F31E7CDD8700591A67 /* ContactListSelectViewController.m in Sources */,
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				2443B15B1E756C92002404EE /* EMAudioRecorderUtil.m in Sources */,
 				2443B16A1E756C92002404EE /* MJRefreshComponent.m in Sources */,
 				2443B1B51E756C92002404EE /* EaseMessageViewController.m in Sources */,
@@ -2201,16 +2468,25 @@
 				2443B19C1E756C92002404EE /* PSTCollectionViewUpdateItem.m in Sources */,
 				2443B1851E756C92002404EE /* EMSDWebImageCompat.m in Sources */,
 				2443B1AA1E756C92002404EE /* UIViewController+HUD.m in Sources */,
+<<<<<<< HEAD
 				2B03D8591E766CC9007232BB /* SCUserProfileEntity.m in Sources */,
 				2443B1BE1E756C92002404EE /* EaseBubbleView+File.m in Sources */,
 				2443B1C11E756C92002404EE /* EaseBubbleView+Location.m in Sources */,
+=======
+				2443B1BE1E756C92002404EE /* EaseBubbleView+File.m in Sources */,
+				2443B1C11E756C92002404EE /* EaseBubbleView+Location.m in Sources */,
+				2B25B2FC1E7B85D6003D42EE /* UIButton+LXLayout.m in Sources */,
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				2443B19E1E756C92002404EE /* PSTGridLayoutItem.m in Sources */,
 				2443B2091E7576C1002404EE /* TYMianViewController.m in Sources */,
 				2443B15D1E756C92002404EE /* EMCDDeviceManager+Microphone.m in Sources */,
 				2443B1BF1E756C92002404EE /* EaseBubbleView+Gif.m in Sources */,
 				2443B1B01E756C92002404EE /* EaseEmotionEscape.m in Sources */,
 				2443B1691E756C92002404EE /* MJRefreshBackFooter.m in Sources */,
+<<<<<<< HEAD
 				2443B1F81E75747B002404EE /* UIView+ZSLAdd.m in Sources */,
+=======
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				2443B1C21E756C92002404EE /* EaseBubbleView+Text.m in Sources */,
 				2443B22C1E7598F5002404EE /* BaseTableViewCell.m in Sources */,
 				2443B1C81E756C92002404EE /* EaseImageView.m in Sources */,
@@ -2223,14 +2499,20 @@
 				2443B1BA1E756C92002404EE /* EaseBaseMessageCell.m in Sources */,
 				2443B1811E756C92002404EE /* MWTapDetectingView.m in Sources */,
 				2443B1C01E756C92002404EE /* EaseBubbleView+Image.m in Sources */,
+<<<<<<< HEAD
 				2B0EDBF81E77F4A700E27527 /* InvitationManager.m in Sources */,
 				2443B18D1E756C92002404EE /* UIButton+EMWebCache.m in Sources */,
 				2443B1B11E756C92002404EE /* EaseEmotionManager.m in Sources */,
 				2B0EDBF51E77F45B00E27527 /* ApplyViewController.m in Sources */,
+=======
+				2443B18D1E756C92002404EE /* UIButton+EMWebCache.m in Sources */,
+				2443B1B11E756C92002404EE /* EaseEmotionManager.m in Sources */,
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				2443B1711E756C92002404EE /* MJRefreshBackNormalFooter.m in Sources */,
 				2443B1971E756C92002404EE /* PSTCollectionViewController.m in Sources */,
 				2443B1821E756C92002404EE /* MWZoomingScrollView.m in Sources */,
 				2443B1A71E756C92002404EE /* NSDateFormatter+Category.m in Sources */,
+<<<<<<< HEAD
 				2B0EDBF21E77F45B00E27527 /* AddFriendCell.m in Sources */,
 				2443B1A81E756C92002404EE /* NSString+Valid.m in Sources */,
 				2443B1A01E756C92002404EE /* PSTGridLayoutSection.m in Sources */,
@@ -2241,6 +2523,18 @@
 				2443B1A41E756C92002404EE /* EaseMessageModel.m in Sources */,
 				2443B16B1E756C92002404EE /* MJRefreshFooter.m in Sources */,
 				2443B1A21E756C92002404EE /* EaseSDKHelper.m in Sources */,
+=======
+				2443B1A81E756C92002404EE /* NSString+Valid.m in Sources */,
+				2443B1A01E756C92002404EE /* PSTGridLayoutSection.m in Sources */,
+				2BFC73F41E7CDD8700591A67 /* AddFriendCell.m in Sources */,
+				2443B1BC1E756C92002404EE /* EaseMessageCell.m in Sources */,
+				2443B2191E757FBB002404EE /* TYNavigationViewController.m in Sources */,
+				2443B17A1E756C92002404EE /* UIView+MJExtension.m in Sources */,
+				2443B1A41E756C92002404EE /* EaseMessageModel.m in Sources */,
+				2443B16B1E756C92002404EE /* MJRefreshFooter.m in Sources */,
+				2443B1A21E756C92002404EE /* EaseSDKHelper.m in Sources */,
+				2B25B2FE1E7B85D6003D42EE /* UIView+ZSLAdd.m in Sources */,
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				2443B1A61E756C92002404EE /* NSDate+Category.m in Sources */,
 				2443B1CC1E756C92002404EE /* EaseChatBarMoreView.m in Sources */,
 				2443B16C1E756C92002404EE /* MJRefreshHeader.m in Sources */,
@@ -2249,10 +2543,16 @@
 				2443B1801E756C92002404EE /* MWTapDetectingImageView.m in Sources */,
 				2443B17F1E756C92002404EE /* MWPhotoBrowser.m in Sources */,
 				2443B1C41E756C92002404EE /* EaseBubbleView+Voice.m in Sources */,
+<<<<<<< HEAD
 				2443B1F71E75747B002404EE /* UIColor+TYAdd.m in Sources */,
 				2B0EDBE31E77EA4E00E27527 /* UIImageView+HeadImage.m in Sources */,
 				2443B1B71E756C92002404EE /* EaseUsersListViewController.m in Sources */,
 				2B0EDBD71E77C44500E27527 /* UserProfileManager.m in Sources */,
+=======
+				2B0EDBE31E77EA4E00E27527 /* UIImageView+HeadImage.m in Sources */,
+				2443B1B71E756C92002404EE /* EaseUsersListViewController.m in Sources */,
+				2BFC73DF1E7CDC6400591A67 /* InvitationManager.m in Sources */,
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				2443B1FC1E757504002404EE /* TYLoginViewController.m in Sources */,
 				2443B1B41E756C92002404EE /* EaseLocationViewController.m in Sources */,
 				2443B18E1E756C92002404EE /* UIImage+EMGIF.m in Sources */,
@@ -2269,6 +2569,7 @@
 				2443B1631E756C92002404EE /* EMVoiceConverter.mm in Sources */,
 				2443B15E1E756C92002404EE /* EMCDDeviceManager+ProximitySensor.m in Sources */,
 				2443B17C1E756C92002404EE /* MWGridCell.m in Sources */,
+<<<<<<< HEAD
 				2443B1C91E756C92002404EE /* EaseTextView.m in Sources */,
 				2B0EDBF31E77F45B00E27527 /* AddFriendViewController.m in Sources */,
 				2443B1B31E756C92002404EE /* EaseConversationListViewController.m in Sources */,
@@ -2282,12 +2583,33 @@
 				2443B1AD1E756C92002404EE /* EaseMessageReadManager.m in Sources */,
 				2443B1611E756C92002404EE /* amrFileCodec.mm in Sources */,
 				2443B2051E757556002404EE /* TYChatHelper.m in Sources */,
+=======
+				2BFC73F71E7CDD8700591A67 /* TYApplyViewController.m in Sources */,
+				2443B1C91E756C92002404EE /* EaseTextView.m in Sources */,
+				2443B1B31E756C92002404EE /* EaseConversationListViewController.m in Sources */,
+				2443B18A1E756C92002404EE /* EMSDWebImagePrefetcher.m in Sources */,
+				2443B1771E756C92002404EE /* MJRefreshConst.m in Sources */,
+				2BFC73F51E7CDD8700591A67 /* AddFriendViewController.m in Sources */,
+				2443B15F1E756C92002404EE /* EMCDDeviceManager+Remind.m in Sources */,
+				2443B1951E756C92002404EE /* PSTCollectionView.m in Sources */,
+				2443AFE81E7569ED002404EE /* main.m in Sources */,
+				2BFC73F81E7CDD8700591A67 /* TYUserListViewController.m in Sources */,
+				2443B1931E756C92002404EE /* UIView+EMWebCacheOperation.m in Sources */,
+				2443B1AD1E756C92002404EE /* EaseMessageReadManager.m in Sources */,
+				2BFC73D91E7CDC1200591A67 /* TYChatHelper.m in Sources */,
+				2BFC73E01E7CDC6400591A67 /* UserProfileManager.m in Sources */,
+				2443B1611E756C92002404EE /* amrFileCodec.mm in Sources */,
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				2443B1871E756C92002404EE /* EMSDWebImageDownloader.m in Sources */,
 				2443B1B81E756C92002404EE /* EaseViewController.m in Sources */,
 				2443B1791E756C92002404EE /* UIScrollView+MJRefresh.m in Sources */,
 				2443B1861E756C92002404EE /* EMSDWebImageDecoder.m in Sources */,
 				2443B19F1E756C92002404EE /* PSTGridLayoutRow.m in Sources */,
 				2443B18B1E756C92002404EE /* MKAnnotationView+EMWebCache.m in Sources */,
+<<<<<<< HEAD
+=======
+				2B25B2FD1E7B85D6003D42EE /* UIColor+TYAdd.m in Sources */,
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				2443B1881E756C92002404EE /* EMSDWebImageDownloaderOperation.m in Sources */,
 				2443B17D1E756C92002404EE /* MWGridViewController.m in Sources */,
 				2443B1831E756C92002404EE /* DACircularProgressView.m in Sources */,
@@ -2296,10 +2618,19 @@
 				2443B1C31E756C92002404EE /* EaseBubbleView+Video.m in Sources */,
 				2443B1891E756C92002404EE /* EMSDWebImageManager.m in Sources */,
 				2443B1601E756C92002404EE /* EMCDDeviceManagerBase.m in Sources */,
+<<<<<<< HEAD
 				2B0EDBF41E77F45B00E27527 /* ApplyFriendCell.m in Sources */,
 				2443B18C1E756C92002404EE /* NSData+EMImageContentType.m in Sources */,
 				2443B16F1E756C92002404EE /* MJRefreshAutoStateFooter.m in Sources */,
 				2443B1591E756C92002404EE /* EaseUI.m in Sources */,
+=======
+				2443B18C1E756C92002404EE /* NSData+EMImageContentType.m in Sources */,
+				2443B16F1E756C92002404EE /* MJRefreshAutoStateFooter.m in Sources */,
+				2BFC73F61E7CDD8700591A67 /* ApplyFriendCell.m in Sources */,
+				2B25B2F41E7B7ED1003D42EE /* EMAlertView.m in Sources */,
+				2443B1591E756C92002404EE /* EaseUI.m in Sources */,
+				2BFC73E41E7CDD2600591A67 /* TYApplicationViewController.m in Sources */,
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				2443B2291E7598B2002404EE /* UIViewController+SearchController.m in Sources */,
 				2B03D8651E769CDB007232BB /* RealtimeSearchUtil.m in Sources */,
 				2443B1CE1E756C92002404EE /* EaseConversationCell.m in Sources */,
@@ -2313,8 +2644,13 @@
 				2443B1671E756C92002404EE /* MBProgressHUD.m in Sources */,
 				2443B1681E756C92002404EE /* MJRefreshAutoFooter.m in Sources */,
 				2443B1A31E756C92002404EE /* EaseConversationModel.m in Sources */,
+<<<<<<< HEAD
 				2443B1F61E75747B002404EE /* UIButton+LXLayout.m in Sources */,
 				2443B1C61E756C92002404EE /* EaseChatToolbar.m in Sources */,
+=======
+				2443B1C61E756C92002404EE /* EaseChatToolbar.m in Sources */,
+				2B25B3011E7B9011003D42EE /* TYTabBarViewController.m in Sources */,
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				2443B20D1E75774F002404EE /* AppDelegate+TYEaseMob.m in Sources */,
 				2443B1C51E756C92002404EE /* EaseBubbleView.m in Sources */,
 				2443B19D1E756C92002404EE /* PSTGridLayoutInfo.m in Sources */,
@@ -2360,10 +2696,36 @@
 			isa = PBXVariantGroup;
 			children = (
 				2443AFF51E7569ED002404EE /* Base */,
+<<<<<<< HEAD
+=======
+				2454D55E1E7836CB0006CEE8 /* zh-Hans */,
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+=======
+		2454D5631E7837520006CEE8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2454D5621E7837520006CEE8 /* en */,
+				2454D5641E7837560006CEE8 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2454D5691E7837BA0006CEE8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2454D5681E7837BA0006CEE8 /* en */,
+				2454D56A1E7837BC0006CEE8 /* zh-Hans */,
+				2BE8DE501E7A823A00FBEDF5 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -2371,6 +2733,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+<<<<<<< HEAD
+=======
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -2418,6 +2784,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+<<<<<<< HEAD
+=======
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -2459,6 +2829,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< HEAD
+=======
+				CODE_SIGN_ENTITLEMENTS = TYMovie/TYMovie.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				DEVELOPMENT_TEAM = SJ693K9RKT;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2474,7 +2849,11 @@
 					"$(PROJECT_DIR)/TYMovie/EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrnb",
 					"$(PROJECT_DIR)/TYMovie/EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrwb",
 				);
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = com.yujinhai.TYMovie;
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyjh.TYMovie;
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WARNING_CFLAGS = "-Wno-documentation";
 			};
@@ -2484,6 +2863,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< HEAD
+=======
+				CODE_SIGN_ENTITLEMENTS = TYMovie/TYMovie.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				DEVELOPMENT_TEAM = SJ693K9RKT;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2499,7 +2883,11 @@
 					"$(PROJECT_DIR)/TYMovie/EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrnb",
 					"$(PROJECT_DIR)/TYMovie/EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrwb",
 				);
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = com.yujinhai.TYMovie;
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyjh.TYMovie;
+>>>>>>> 26c38f5ee33ba6fea4058e9b8efaecd9ff339fa7
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WARNING_CFLAGS = "-Wno-documentation";
 			};
